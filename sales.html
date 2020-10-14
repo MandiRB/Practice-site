@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+<title>LipGloss.com-The Best Lippy On the Web</title>
+</head>
+<body>
+	<script>
+		function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+				x.className += " responsive";
+			} else {
+				x.className = "topnav";
+			}
+		}
+	</script>
+<div class="header">
+<center><h1>Lippgloss.com</h1><img src="images/logogood.png"></center>
+<nav class="topnav"id="myTopnav">
+	    <a href="index.html">Home</a>
+		<a href="lippy.html">Lippys</a>
+		<a href="sales.html">Sales</a>
+		<a href="contact.html">Contact Us</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()"><img src="images/nav-icon.png"></a>
+		<a href="javascript:void(0);" class="open" onclick="myFunction()"></a>
+	</nav>
+</a>
+</div>
+</header>
+
+<div class="content">
+<h3>Select a Lip Kit on Our Lippy Page
+ <br><br>
+    <br><br>
+    <center>
+  <form>
+<input type="button" value="Portfolio HOME" onclick="window.location.href='http://mrobertsboyster.mydevryportfolio.com/PortfolioIndex/portfolioindex.html'" />
+<style>
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #646464;
+  background-color:#646464;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #000;
+}
+
+.button:hover {background-color: }
+
+.button:active {
+  background-color: #646464;
+  box-shadow: 0 5px #dfdfdf;
+  transform: translateY(4px);
+}
+</style>
+</form>
+</center>
+<br><br>
+</h3>
+<img src="images/coupon.png">
+<p>Click button to retrive PDF Coupon</p>
+</div>
+<div class="content">
+<h3>Printable For Store Front</h3>
+<form method="post" action="coupon.pdf" id="regform">
+  <button>Click Here</button>
+</form>
+<canvas id='canvas' width='533' height='533'></canvas>
+    <script>
+    var ctx = document.getElementById("canvas").getContext("2d");
+    
+    </script>
+
+<div class="footer">
+<p>&nbsp;</p>
+</footer>
+</div>
+</body>
+</html>
