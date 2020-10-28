@@ -1,0 +1,189 @@
+@charset "UTF-8";
+
+body {
+font-family: 'Noto Sans SC', sans-serif;
+background: white;
+color: black;
+font:100%;
+}
+
+a:link {
+  color: #000000;
+  text-decoration: none;
+}
+a:visited {
+  color: #000000;
+  text-decoration: none;
+}
+a:hover, a:active, a:focus {
+  text-decoration: none;
+}
+input:invalid {
+  border: 2px dashed pink;
+}
+input:valid {
+  border: 2px solid black;
+}
+
+nav {
+  border:1px solid white;
+  border:-width:1px 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ a {
+  display: none;
+}
+
+nav a.icon {
+  text-align:right;
+  display: block;
+  font:100%;
+}
+
+nav.responsive .open {
+  text-align:right;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  font-size: 100%;
+}
+
+nav.responsive a {
+  float: center;
+  display: block;
+  text-align:right;
+}
+
+.nav li {
+  display: inline;
+  text-decoration: none;
+}
+
+.nav a{
+  display: inline-block;
+  text-decoration: none;
+}
+
+.container {
+  width:auto;
+  background: white;
+}
+
+
+.header{
+  background:white;
+  margin:auto;
+  padding:20px;
+  width: 180px;
+}
+
+.content {
+  margin:0;
+  padding: 0;
+  float: center;
+  background: white;
+  text-align:center;
+
+}
+
+
+
+footer {
+  color: black;
+  margin: 0 auto;
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 2em 0 0 0;
+}
+
+
+
+@media screen and (min-width: 480px) {
+ body { 
+    	font-size:100%;
+    	 }
+    h1{
+        font-size: 1.5em;
+      }
+    h2{
+    	font-size: 1.34em;
+    }
+
+.container {
+	padding: 0;
+	margin:0 ;
+	overflow: hidden;
+	background: white;
+  float: none;
+}
+ .content {
+      width: 100%;
+      padding:0;
+      margin: 0 auto;
+    }
+
+nav {
+		overflow: hidden;
+    position: auto;
+	}
+
+	nav a {
+		display: inline-block;
+		text-align: center;
+		padding: 12px 4px;
+		text-decoration: none;
+	}
+
+	nav a.icon, nav a.open {
+		display: none;
+	}
+
+}
+
+
+@media screen and (min-width: 760px){
+body { 
+      font-size:100%;
+       }
+    h1{
+        font-size: 1.5em;
+      }
+    h2{
+      font-size: 1.34em;
+    }
+
+
+.container {
+  padding: 0;
+  margin:0 ;
+  overflow: hidden;
+  background: white;
+  float: none;
+}
+ .content {
+      width: 100%;
+      padding:0;
+      margin: 0 auto;
+    }
+
+nav {
+    overflow: hidden;
+  }
+
+  nav a {
+    display: inline-block;
+    text-align: center;
+    padding: 12px 4px;
+    text-decoration: none;
+  }
+
+  nav a.icon, nav a.open {
+    display: none;
+  }
+
+}
